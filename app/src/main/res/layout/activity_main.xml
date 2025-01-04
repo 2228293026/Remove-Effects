@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:padding="16dp"
+     android:orientation="vertical">
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="输入ADOFAI文件 (别在Android/data目录)" />
+
+    <EditText
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:hint=".adofai文件路径"
+         android:id="@+id/editTextFilePath" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:id="@+id/buttonDeleteAllEffects"
+         android:text="删除所有特效" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:id="@+id/buttonDeleteMostEffects"
+         android:text="删除大部分特效" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:id="@+id/buttonDeleteVisualEffects"
+         android:text="只删除视觉效果" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:id="@+id/buttonDeleteMajorFilters"
+         android:text="删除主要的滤镜" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:id="@+id/buttonDeleteDecorations"
+         android:text="删除装饰" />
+    
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:id="@+id/buttonCustomDelete"
+         android:text="自定义删除" />
+
+    <ListView
+    android:id="@+id/listViewEffects"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/buttonCustomDelete"
+    android:layout_margin="10dp"
+    android:choiceMode="multipleChoice"
+    android:divider="@android:color/darker_gray"
+    android:dividerHeight="1dp" />
+
+    
+    
+    
+
+</LinearLayout>
