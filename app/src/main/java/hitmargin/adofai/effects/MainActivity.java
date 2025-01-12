@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
             "SetFilter", "HallOfMirrors", "ShakeScreen", "Bloom", "ScreenTile",
             "ScreenScroll", "RepeatEvents", "ConditionalEvents", "AddDecoration",
             "AddText", "SetFrameRate", "SetFloorIcon", "SetObject", "AddObject",
-            "SetFilterAdvanced", "SetDefaultText", "EmitParticle", "SetParticle", "AddParticle", "SetInputEvent"
+            "SetFilterAdvanced", "SetDefaultText", "EmitParticle", "SetParticle", "AddParticle", "SetInputEvent", "Hold", "SetHoldSound", "FreeRoam", "FreeRoamTwirl", "FreeRoamRemove", "Hide", "ScaleMargin", "ScaleRadius"
         ));
         effectsAdapter = new EffectsAdapter(this, effectsList);
         listViewEffects.setAdapter(effectsAdapter);
